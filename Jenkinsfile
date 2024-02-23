@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build image') {
-       app = docker.build("akrawal/flask-image")
+       app = docker.build("akrawal123/flask-image")
     }
 
     stage('Test image') {
